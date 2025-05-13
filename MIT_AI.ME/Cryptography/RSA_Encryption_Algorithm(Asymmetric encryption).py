@@ -83,7 +83,7 @@ try:
     modulusSize = int(sys.argv[1])
         
 except:
-    modulusSize = 4096  #4096 modulus size was used too but message encryption and decryption was about 9minutes due to local computational resources, so used 2048 on my laptop
+    modulusSize = 8192  #Takes approximztely 36mins to compute the Encryption and Decryption on a 64gig ram + dual core server processor.. chose the key size based on your hardware properties
 
 msg = (input('Type your secure message and press Enter: '))
 
