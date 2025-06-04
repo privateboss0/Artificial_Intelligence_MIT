@@ -1,6 +1,7 @@
 #This is built on top of the Tor network to allow
 #for a private, secure, and continous random allocation of tor ip addresses to 
 #facilitate an anonymous browsing experience on the internet from the network level
+#For best results, combine this two projects together: https://github.com/privateboss0/Artificial_Intelligence_Stanford/tree/devilgod/Stanford_AI.ME/Assignments_and_projects/Secure_browser_customization
 
 import time
 import os
